@@ -1098,6 +1098,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 .testimonial-card {
+  width: calc(33.333% - var(--space-lg));
   min-width: calc(33.333% - var(--space-lg));
   background: var(--color-bg-card);
   border-radius: var(--radius-lg);
@@ -1562,6 +1563,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
   }
 
   .testimonial-card {
+    width: calc(50% - var(--space-lg));
     min-width: calc(50% - var(--space-lg));
   }
 }
@@ -1652,6 +1654,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
   }
 
   .testimonial-card {
+    width: 100%;
     min-width: 100%;
   }
 
